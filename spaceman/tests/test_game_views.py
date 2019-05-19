@@ -93,3 +93,5 @@ class GameApiViewTests( TestCase ):
 
             test_dict = {'solution': 'batman'}
             self.assertDictEqual( response.data, test_dict)
+
+#adding comment to close out github issue #4 and #5
