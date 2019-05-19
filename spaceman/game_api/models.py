@@ -8,6 +8,7 @@ from django.dispatch import receiver
 
 #This text is used for testing purposes
 #It will be used as a change that is to be made through an Issue request
+#This second change is to reference the issue using #2
 class Game(models.Model):
     word = models.CharField( max_length = 30, validators=[
         validators.MinLengthValidator(3, message="Word must be at least 3 characters long" ), 
